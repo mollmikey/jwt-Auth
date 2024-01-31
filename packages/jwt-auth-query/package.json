@@ -1,5 +1,5 @@
 {
-  "name": "jwt-auth-query",
+  "name": "jwt-auth",
   "type": "module",
   "description": "An exercise to practice how to apply authentication",
   "version": "0.1.0",
