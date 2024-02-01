@@ -2,18 +2,17 @@
 
 ## Instructions
 
-1. Decide on a topic and a day to present.
+1. Decide on a topic. Remember: If you did a biographical topic in round one, you must do a technical topic this time.
 1. Open this file for editing.
 1. Under _Topics_, replace the space with an `x` in the `[ ]` next to the topic of your choice.
-1. Under _Schedule_, enter your topic and name on the day you wish to present.
-1. Sign up to give feedback to TWO other talks.
+1. Under _Schedule_, enter your topic next to your name.
 1. Commit your changes.
 1. Prepare your talk.
 
 
 ## Schedule
 
-### Monday
+### Group 1
 
 | Order | Speaker        | Topic                                       | Feedbacker 1   | Feedbacker 2   |
 | ----- | -------------- | ------------------------------------------- | -------------- | -------------- |
@@ -23,7 +22,7 @@
 |   4   |                |                                             |                |                |
 |   5   |                |                                             |                |                |
 
-### Tuesday
+### Group 2
 
 | Order | Speaker        | Topic                                       | Feedbacker 1   | Feedbacker 2   |
 | ----- | -------------- | ------------------------------------------- | -------------- | -------------- |
@@ -33,7 +32,7 @@
 |   4   |                |                                             |                |                |
 |   5   |                |                                             |                |                |
 
-### Wednesday
+### Group 3
 
 | Order | Speaker        | Topic                                       | Feedbacker 1   | Feedbacker 2   |
 | ----- | -------------- | ------------------------------------------- | -------------- | -------------- |
@@ -43,7 +42,7 @@
 |   4   |                |                                             |                |                |
 |   5   |                |                                             |                |                |
 
-### Thursday
+### Group 4
 
 | Order | Speaker        | Topic                                       | Feedbacker 1   | Feedbacker 2   |
 | ----- | -------------- | ------------------------------------------- | -------------- | -------------- |

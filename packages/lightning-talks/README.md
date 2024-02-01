@@ -4,11 +4,11 @@ Yay!
 
 ⚡️ Lightning talks! ⚡️
 
-This is your chance to learn a little about new topic and share what you have learned with others in the cohort. 
+This is your chance to learn a little about a new topic and share what you have learned with others in the cohort. 
 
 We can't dive deep into every interesting subject, but between many of us, we can take a peek at what they're about. In a dev team, these topics are often pieces of tech you're planning use, or different options we're deciding between. Here, we'll use it to learn some cool stuff we might not otherwise cover.
 
-**The idea of a lightning talk is not that you'll be an expert, but that you will be completely new to the topic yourself.**
+**The idea of a lightning talk is not that you'll be an expert, but that you will be completely new to the topic yourself. For this reason, please don't pick a topic you are already familiar with.**
 
 This is an opportunity to practice learning about a completely unknown area. What things are important? What did I find interesting? What will help others understand the topic?
 
@@ -28,7 +28,7 @@ There are two files in this repo, one for each week. Select the relevant one for
 
 - Try not to use notes, we just want to hear about the things you learned/find interesting, but it's okay if you do need to use some prompts.
 
-- No computer/projector use, but there are plenty of whiteboards :)
+- No computer/projector use, but there are plenty of whiteboards or flipchart paper
 
 - If you have a lot to write up, remember, you can always prepare the whiteboard before your talk!
 
