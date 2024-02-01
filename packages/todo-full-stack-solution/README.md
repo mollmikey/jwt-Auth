@@ -13,7 +13,7 @@ For this challenge, we will build a todo app (which is a common way to practice 
   You may also want to start a new branch
 
   ```sh
-  cd todo-full-stack-query
+  cd todo-full-stack
   npm i
   git checkout -b <branchname>
   npm run dev
