@@ -25,7 +25,7 @@ export function useFruitMutation<TData = unknown, TVariables = unknown>(
   const mutation = useMutation({
     mutationFn,
     onSuccess: () => {
-      queryClient.invalidateQueries(['fruits'])
+      queryClient.invalidateQueries({ queryKey: ['fruits'] })
     },
   })
 

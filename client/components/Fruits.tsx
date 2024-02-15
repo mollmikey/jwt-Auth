@@ -79,7 +79,7 @@ function Fruits() {
     setForm({ show: 'selected', selectedFruit: fruit })
   }
 
-  if (fruits.isLoading) {
+  if (fruits.isPending) {
     let failures = ''
     if (fruits.failureCount > 0) {
       failures = ` (failed ${fruits.failureCount} times)`
@@ -89,9 +89,9 @@ function Fruits() {
   }
 
   let fetchStatus = ''
-  if (fruits.add.isLoading) fetchStatus = 'Adding...'
-  if (fruits.update.isLoading) fetchStatus = 'Updating...'
-  if (fruits.delete.isLoading) fetchStatus = 'Deleting...'
+  if (fruits.add.isPending) fetchStatus = 'Adding...'
+  if (fruits.update.isPending) fetchStatus = 'Updating...'
+  if (fruits.delete.isPending) fetchStatus = 'Deleting...'
   if (fruits.isRefetching) fetchStatus = 'Refreshing...'
 
   if (fruits.error instanceof Error) {
