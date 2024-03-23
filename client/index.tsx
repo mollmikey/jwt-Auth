@@ -19,11 +19,13 @@ root.render(
   <Auth0Provider
     domain=""
     clientId=""
-    redirectUri={window.location.origin}
-    audience=""
+    authorizationParams={{
+      redirect_uri: window.location.origin,
+      audience: '',
+    }}
   >
     <QueryClientProvider client={queryClient}>
       <RouterProvider router={router} />
     </QueryClientProvider>
-  </Auth0Provider>
+  </Auth0Provider>,
 )
