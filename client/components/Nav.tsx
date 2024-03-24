@@ -6,7 +6,7 @@ function Nav() {
   // TODO: call the useAuth0 hook and destructure user, logout, and loginWithRedirect
   // TODO: replace placeholder user object with the one from auth0
   const { user, logout, loginWithRedirect } = useAuth0()
-  console.log(user)
+  console.log(user?.name)
 
   //  user = {
   //   nickname: 'john.doe',
