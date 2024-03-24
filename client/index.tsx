@@ -15,13 +15,14 @@ root.render(
    * all authentication operations
    *
    * TODO: replace the empty strings below with your own domain, clientId, and audience
+   *fixing git iam commit
    */
   <Auth0Provider
-    domain=""
-    clientId=""
+    domain="sonia-huynh.au.auth0.com"
+    clientId="SlqbooQnow3J2lkoJeTInY3Ygx4KtojO"
     authorizationParams={{
       redirect_uri: window.location.origin,
-      audience: '',
+      audience: 'https://fruits/api',
     }}
   >
     <QueryClientProvider client={queryClient}>
