@@ -68,9 +68,11 @@ function SelectedFruitForm({ fruit, onUpdate, onDelete, onClose }: Props) {
             Delete fruit
           </Button>
         </IfAuthenticated>
-        <Button type="button" onClick={onClose}>
-          Close
-        </Button>
+        <IfNotAuthenticated>
+          <Button type="button" onClick={onClose}>
+            Close
+          </Button>
+        </IfNotAuthenticated>
       </GridForm>
     </>
   )
