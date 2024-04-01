@@ -1,5 +1,5 @@
 import { Fruit } from '../../models/fruit.ts'
-
+import { IfAuthenticated, IfNotAuthenticated } from './Authenticated.tsx'
 import { useState } from 'react'
 
 import { GridForm, ColOne, ColTwoText, Button } from './Styled.tsx'
@@ -57,16 +57,17 @@ function SelectedFruitForm({ fruit, onUpdate, onDelete, onClose }: Props) {
           value={editingGrams}
           onChange={handleTextChange}
         />
-
-        <Button
-          type="submit"
-          disabled={editingName === '' || editingGrams === 0}
-        >
-          Update fruit
-        </Button>
-        <Button type="button" onClick={handleDeleteButtonClick}>
-          Delete fruit
-        </Button>
+        <IfAuthenticated>
+          <Button
+            type="submit"
+            disabled={editingName === '' || editingGrams === 0}
+          >
+            Update fruit
+          </Button>
+          <Button type="button" onClick={handleDeleteButtonClick}>
+            Delete fruit
+          </Button>
+        </IfAuthenticated>
         <Button type="button" onClick={onClose}>
           Close
         </Button>
